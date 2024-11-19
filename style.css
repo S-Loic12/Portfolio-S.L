@@ -4,27 +4,29 @@ body{
     height: 400vh;
     background-color: #11131F;
 }
+nav{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
 li{
+    text-decoration: none;
     list-style: none;
     margin: 12px;
+    font-family: "Poppins", serif;
+    scroll-behavior: smooth;
 }
 header{
-    top: 0;
+    background-color: white;
+}
+.C2{
+    text-decoration: none;
+    margin: 12px;
     display: flex;
-    justify-content: center;
-    background-color:white;
+    align-content: flex-end;
 }
-button{
-    background-color: gold;
-    border: gold;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-radius: 2%;
-}
-button:hover{
-    transition: 0.4s;
-    background-color: blueviolet;
-    color: whitesmoke;
-}
+
 .box{
     border: #5958B1 solid 2px;
     width: 50%;
@@ -51,8 +53,90 @@ button:hover{
 .box:hover{
     box-shadow: 0 0 30px #5958B1, 0 0 60px #5958B1,
    0 0 90px #5958B1;
+    
 }
 p{
     font-family: "Poppins", serif;
+    color: #B1A9FF;
+}
+h1{
+    color: #B1A9FF;
+    
+}
 
+.dev1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#N1{
+    background-color: #171625;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#dev2{
+    height: 90%;
+    width: 40%;
+}
+
+img{
+    width: 40%;
+    height: 40%;
+}
+h2{
+    font-family: "Poppins", serif;
+    color: black;
+}
+h3{
+    font-family: "Poppins", serif;
+    color: #B1A9FF;
+}
+
+#N4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #11131F;
+}
+#N2{
+    background-color: #11131F;
+
+}
+img{
+
+    margin: 12px;
+}
+#Capture{
+    width: 60%;
+    height: 60%;
+    border-radius: 2%;
+}
+.SL{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.LS{
+    display: flex;
+}
+h1{
+    color: #B1A9FF;
+    font-family: "Poppins", serif;
+}
+
+.Carte{
+    color: #B1A9FF;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Projet{
+    color: #B1A9FF;
+}
+li{
+    margin-left: 120px;
 }
