@@ -181,4 +181,28 @@ html{
 button:hover{
     transform: scale(1.2);
     transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.footer-inner{
+    border-bottom: 0;
+    left: 0; 
+    z-index: 10;
+    color: #B1A9FF;
+    font-family: "Poppins", serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+footer{
+    height:20px;
+    display: flex;
+    align-items: flex-end;
+    width: auto;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    gap: 10px;
 }
