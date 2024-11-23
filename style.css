@@ -6,14 +6,16 @@ body{
 }
 nav{
     display: flex;
-    position: fixed;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-right: 50px;
     background-color: white;
-    width: 100%;
+    
 }
 li{
     text-decoration: none;
     list-style: none;
-    margin: 12px;
+    text-decoration: none;
     font-family: "Poppins", serif;
     scroll-behavior: smooth;
 }
@@ -22,9 +24,10 @@ header{
 }
 .C2{
     text-decoration: none;
-    margin: 12px;
     display: flex;
-    align-content: flex-end;
+    justify-content: center;
+    gap: 12px;
+
 }
 
 .box{
@@ -35,13 +38,19 @@ header{
     margin: 10px;
     color: #B1A9FF;
     border-radius: 2%;
-    box-shadow: 0 0 20px #5958B1, 0 0 40px #5958B1,
-   0 0 60px #5958B1;
+    box-shadow: 0 0 20px #5958B1, 0 0 20px #5958B1,
+   0 0 20px #5958B1;
    
     transition: box-shadow 0.3s;
     position: sticky;
     top: 0;
     background-color: black;
+}
+.svg-curve{
+    fill: #171625;
+}
+.svg-curve1{
+    fill: #11131F;
 }
 #N2{
     position: relative;
@@ -50,11 +59,7 @@ header{
     align-items: center;
     flex-direction: column;
 }
-.box:hover{
-    box-shadow: 0 0 30px #5958B1, 0 0 60px #5958B1,
-   0 0 90px #5958B1;
-    
-}
+
 p{
     font-family: "Poppins", serif;
     color: #B1A9FF;
@@ -101,8 +106,11 @@ h3{
     flex-direction: column;
     background-color: #11131F;
 }
+.MK1{
+    display: flex;
+}
 #N2{
-    background-color: #11131F;
+    background-color: white;
 
 }
 img{
@@ -110,15 +118,48 @@ img{
     margin: 12px;
 }
 #Capture{
-    width: 60%;
-    height: 60%;
+    width: 77%;
+    height: 40%;
     border-radius: 2%;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border:  1px solid rgba(43, 105, 251, 0.12);
+    transition: 0.3s ease-in-out;
+}
+.PR{
+    width: 77%;
+    height: 40%;
+    border-radius: 2%;
+    transition: 0.3s ease-in-out;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.PR:hover{
+    transform: scale(1.1);
 }
 .SL{
+    margin: 12px;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-position: center top;
+    background-color: white;
+    width: 42%;
+    height: auto;
+    border-radius: 2%;
+}
+.box-text{
+    color: black;
+    text-align: center;
+    
+}
+#capture{
+    grid-area: 1 / 1 / -1 / -1;
+    position: relative;
+}
+#Capture:hover{
+    transform: scale(1.1);
 }
 .LS{
     display: flex;
@@ -137,6 +178,7 @@ html{
 #Projet{
     color: #B1A9FF;
 }
-li{
-    margin-left: 120px;
+button:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
 }
