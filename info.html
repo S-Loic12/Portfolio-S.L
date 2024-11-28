@@ -7,11 +7,20 @@
     <link rel="stylesheet" href="info.css">
 </head>
 <body>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname">
-    <label for="information">En quoi puis-je vous aider?</label><br>
-    <input type="text" id="input" name="input">
+    <main>
+        <form action="form" id="frm">
+            <label for="fname" class="xx">Nom</label>
+            <input type="text" id="fname">
+            <label for="lname" class="xx">Prenom</label>
+            <input type="text" id="lname">
+            <label for="email" class="xx">Email</label>
+            <input type="text" name="q" id="email">
+            <label for="">Description</label>
+            <input type="text" placeholder="Une description courte des services que vous demandez..." id="ds" maxlength="59">
+        </form>
+        <div id="mrk1">
+            <button>Envoyer</button>
+        </div>
+    </main>    
 </body>
 </html>

@@ -1,0 +1,28 @@
+#frm{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#mrk1{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.xx{
+    margin-right: 137px;
+}
+#ds{
+    height: 90px;
+    width: 390px;
+    gap: 12px;
+}
+button{
+    margin-top: 12px;
+}
+
